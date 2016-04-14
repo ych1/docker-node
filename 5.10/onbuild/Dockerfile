@@ -1,4 +1,4 @@
-FROM unbuntu
+FROM node:5.10.1
 
 
 RUN apt-get update && apt-get install yamdi -y
