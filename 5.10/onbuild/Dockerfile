@@ -1,4 +1,7 @@
-FROM node:5.10.1
+FROM unbuntu
+
+
+RUN apt-get update && apt-get install yamdi -y
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
